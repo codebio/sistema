@@ -1,0 +1,7 @@
+from django.contrib import admin
+from principal.models import Circunscripcion, Nucleado, Centroe
+# Register your models here.
+
+admin.site.register(Circunscripcion)
+admin.site.register(Nucleado)
+admin.site.register(Centroe)
